@@ -1,0 +1,46 @@
+@import '../../../styles/variables.scss';
+
+.container {
+  color: $primary-color;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 500px;
+  padding: 2rem;
+  border: 2px dashed $secondary-color;
+  border-radius: 30px;
+}
+
+.formFile {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.fileName {
+  color: $secondary-color;
+}
+
+.browseWrapper {
+  gap: 10px;
+}
+
+.fileInput {
+  display: none;
+}
+
+.removeButton {
+  font-size: 1.2rem;
+  color: $danger-color;
+  cursor: pointer;
+}
+
+.analyzeButton {
+  margin-top: 20px;
+}

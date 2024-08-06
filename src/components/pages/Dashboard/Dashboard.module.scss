@@ -1,0 +1,7 @@
+@import '../../../styles/variables.scss';
+
+.wrapper {
+  background-color: $background-color;
+  padding: 2rem 5rem;
+  min-height: 100vh;
+}
